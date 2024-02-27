@@ -1,0 +1,280 @@
+@font-face {
+	font-family: anrim;
+	src: url('../font/anirm___.ttf');
+
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;	
+
+
+}
+
+.wrapper {
+	text-align: center;
+	width: 968px;
+	margin: 0 auto;
+
+}
+
+body {
+	background-color: darkwhite;
+	font-family: anrim; 
+}
+
+
+
+footer {
+	padding-top: 20px;
+	border-top: solid darkgray 3px;
+	background-color: #004c35;
+	padding-bottom: 60px;
+
+}
+
+footer p {
+	color: gold;
+}
+
+
+p {
+	color: gray;
+	padding: 10px 20px 10px;
+	font-size: 21px;
+	align-items: center;
+	font-size: 90%;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px; 
+    z-index: 1000; 
+}
+
+h1 {
+	margin: 10px;
+	padding: 20px;
+	font-size: 55px;
+	color: cyan;
+	padding-left: 25px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logoimg{
+	width: 100px;
+	height: auto;	
+	padding-left: 40px;
+	padding-top: 40px;
+}
+li {
+	padding-left: 25;
+}
+
+
+
+.txond{
+	text-align: center;
+	padding: 53px ;
+
+	
+
+}
+.rooster p{
+	color: black;
+
+}
+.textle p{
+	color: black ;
+
+}
+
+#clickable-sentence {
+    cursor: pointer;
+    color: gold;
+    text-decoration: underline;
+}
+
+#hidden-content {
+    display: none;
+	padding-left: 152px;
+}
+
+h2{
+	font-size: 40px;
+	padding: 0%;
+	color: mediumaquamarine;
+	padding-top:40px;
+}
+
+x * {
+	margin: 0;
+	padding: 0;
+}
+.textre{
+	display: flex;
+	flex-direction: row;
+	padding-left: 169px;
+	padding-right: 169px;
+	padding-top: px;
+}
+
+.textre p{
+	
+	color: black;
+}
+.textle{
+	padding-top: 80px;
+	display: flex;
+	flex-direction: row;
+	padding-left: 369px;
+	padding-right: 169px;
+	align-items: center;
+}
+.geert{
+	width: 750px;
+}
+.imgschool{
+	width: 600px;
+}
+.school P{
+	display: flex;
+	flex-direction: column;
+}
+.textschool{
+	display: flex;
+	flex-direction: row;	
+}
+nav {
+	border: double 5px cyan;
+	border-width: 3px;
+	background-color: black;
+	color: indigo;
+	padding-right: 2px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 25px;
+	margin-top: 50px;	
+	margin-bottom: 95px;
+}
+.rooster{
+	
+
+	padding-top: 80px;
+	display: flex;
+	flex-direction: row;
+	padding-left: 169px;
+	padding-right: 169px;
+	align-items: center;
+	
+
+}
+.roosterimg{
+	width: 600px;
+
+
+}
+
+.rooster p{
+
+	margin: 0px;
+	padding: 3px;
+	display: flex;
+	flex-direction: column;
+	color: black;
+}
+.vakken p{
+	color: white;
+
+	
+	
+}
+.vakken{
+	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	padding-left: 369px;
+	padding-right: 169px;
+	align-items: center;
+	background-color: rgb(71, 70, 70);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.row {
+    
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.vakken P{
+	display: flex;
+	flex-direction: column;
+
+}
+
+nav a {
+	text-decoration: none;
+	font-family: anrim;
+}
+
+.imgdoc{
+	width: 70px;
+}
+
+a {
+	color: gold; 
+	text-decoration: none; 
+	padding: 5px 10px; 
+	transition: background-color 0.3s; 
+	background-color: transparent; 
+}
+
+
+a:hover {
+	background-color: rgb(127, 197, 233);
+}
+
+
+.snowflake {
+    position: fixed;
+    color: black;
+    font-size: 20px; 
+    z-index: 9999; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    padding: 10px;
+    text-align: center;
+}
+
+
+.cyan-line {
+	width: 100%;
+	border-top: 3px solid cyan;
+	margin-top: 20px;
+	padding-bottom: 50px;
+}
+
+/* CSS for the paragraph with the email address */
+.email-address {
+	font-size: 18px;
+	color: cyan;
+	margin-top: 10px;
+}
+
+
+footer h2{
+padding: 0;}
+
+footer p{
+padding-top: 40px;
+}
+
+
